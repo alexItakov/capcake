@@ -1,0 +1,528 @@
+/*==========  Desktop First Method  ==========*/
+
+
+@media only screen and (max-width : 1900px) {
+
+}
+
+
+@media only screen and (max-width : 1500px) {
+
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+
+@media only screen and (max-width : 360px) {
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+@media only screen and (min-width : 1500px) {
+
+
+	body {
+		height: 100%;
+		margin: 0 auto;
+		width: 100%; 
+		max-width: 1940px;
+		overflow-x: hidden;
+		position: relative;
+		
+	}
+
+	#main_container {
+		max-width: 1940px;
+		width: 100%;
+		position: relative;
+	}
+
+
+	#section1_into {
+
+		max-width: 1940px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 5%;
+
+	}
+
+	
+
+
+	#section1_into p {    
+		font-size: 13px;
+	}
+
+
+	.number {
+
+		font-size: 37px;    
+		top: 59px;
+
+	}
+
+	.logo_block {
+		width: 625px;
+		height: 134px;
+		position: relative;
+		top: 109px;
+		margin: auto;
+		background: url(../images/frame.png);
+		background-size: cover;
+		padding-top: 20px;
+	}
+
+	.cap {
+		width: 43%;
+	}
+
+
+
+
+	#section2_varim_cofe {
+		position: relative;
+		background: url(../images/large_bg2.jpg);
+		background-repeat: no-repeat;
+		border: 4px solid #345e42;
+		background-size: cover;
+		padding-bottom: 0%;
+	}
+
+	#section2_varim_cofe h2 {
+		font-family: "RistrettoPRO Light";
+		color: #ffffff;
+		font-size: 80px;
+		margin: auto;
+		position: relative;
+		top: 24.8%;
+		text-align: center;
+	}
+
+
+	#section2_varim_cofe p {
+		font-family: "OpenSans Regular";
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		top: 25%;
+		position: relative;
+		line-height: 26px;
+		opacity: .9;
+	}
+
+	.logo_sec2 {
+		width: 87px;
+		height: 66px;
+		display: block;
+		position: relative;
+		top: 22%;
+		margin: 0 44%;
+		margin: auto;
+	}
+
+
+	.cofee_beans1_sec2 {
+		width: 28%;
+		height: 18%;
+		position: relative;
+		display: block;
+		margin: auto;
+		text-align: center;
+		right: 3.9%;
+		top: -3%;
+	}
+
+	.beans_packet {
+		width: 480px;
+		height: 610px;
+		position: absolute;
+		display: block;
+		top: 133px;
+		left: 57%;
+	}
+	.cup {
+		width: 355px;
+		height: 328px;
+		position: absolute;
+		display: block;
+		margin-top: 47px;
+	}
+
+	.spoon_block {
+		width: 109px;
+		height: 193px;
+		position: absolute;
+		display: block;
+		margin-left: 108%;
+		margin-top: 11%;
+	}
+
+	.spoon_n_cup {
+		width: 275px;
+		height: 270px;
+		position: absolute;
+		top: 193px;
+		right: 70%;
+	}
+
+
+
+	#section3_vkusnyski h2 {
+		font-family: "RistrettoPRO Light";
+		color: #ffffff;
+		font-size: 80px;
+		margin: auto;
+		position: relative;
+		top: 35.8%;
+		text-align: center;
+	}
+
+	#section3_vkusnyski p {
+		font-family: "OpenSans Regular";
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		top: 36%;
+		position: relative;
+		line-height: 26px;
+		opacity: .9;
+	}
+
+	.logo_sec3 {
+		width: 75px;
+		height: 72px;
+		display: block;
+		position: absolute;
+		top: 23%;
+		left: 46.5%;
+		right: 45%;
+		padding-left: 24px;
+	}
+
+	.cruissant {
+		width: 23%;
+		height: 27%;
+		position: absolute;
+		top: 12%;
+		right: 88%;
+		left: 18%;
+	}
+
+	.green_trangle {
+		width: 88px;
+		height: 45px;
+		position: absolute;
+		left: 47.5%;
+		right: 45%;
+		top: 92.5%;
+	}
+
+	.red_trangle {
+		width: 75px;
+		height: 47px;
+		position: absolute;
+		left: 47.5%;
+		right: 45%;
+		top: 91.7%;
+	}
+
+
+	#section4_scoro h1 {
+
+		font-size: 183px;
+	}
+
+
+	#section4_scoro p {
+		font-family: "OpenSans Regular";
+		color: #fff;
+		font-size: 21px;
+		text-align: center;
+		top: 24%;
+		position: relative;
+		line-height: 28px;
+		opacity: .9;
+	}
+
+
+	#section5_cafe_personal h2 {
+		font-family: "RistrettoPRO Light";
+		color: #ffffff;
+		font-size: 80px;
+		margin: auto;
+		position: relative;
+		top: 27.8%;
+		text-align: center;
+	}
+
+	#section5_cafe_personal p {
+		font-family: "OpenSans Regular";
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		top: 32%;
+		position: relative;
+		line-height: 25px;
+		opacity: .9;
+	}
+
+	.button1 {
+		display: inline-block;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #ffffff;
+		box-sizing: border-box;
+		background-color: rgba(155, 57, 108, 0);
+		width: 293px;
+		height: 46px;
+		position: relative;
+		margin: 0 auto;
+		margin-right: 91px;
+		top: 39%;
+		font-family: "OpenSans Regular";
+		color: #fff;
+		font-size: 18px;
+		padding-top: 9px;
+	}
+
+	.button2 {
+		display: inline-block;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #ffffff;
+		box-sizing: border-box;
+		background-color: rgba(155, 57, 108, 0);
+		width: 293px;
+		height: 46px;
+		position: relative;
+		margin: 0 auto;
+
+		top: 39%;
+		font-family: "OpenSans Regular";
+		color: #fff;
+		font-size: 18px;
+		padding-top: 9px;
+	}
+
+
+	.logo_sec5 {
+		width: 122px;
+		height: 54px;
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		top: 23%;
+	}
+
+	#section7_creators h2 {
+		font-family: "RistrettoPRO Light";
+		color: #ffffff;
+		font-size: 80px;
+		margin: auto;
+		position: relative;
+		top: 17.8%;
+		text-align: center;
+	}
+
+
+	.creator_block1 {
+		display: inline-block;
+		height: 52%;
+		width: 43%;
+		top: 16%;
+		position: relative;
+		text-align: center;
+		margin: 0 auto;
+		padding-right: 3%;
+
+	}
+
+	.creator_block2 {
+		display: inline-block;
+		height: 52%;
+		width: 43%;
+		top: 16%;
+		position: relative;
+		text-align: center;
+		margin: 0 auto;
+		padding-left: 3%;
+
+	}
+
+	.face {
+		width: 220px;
+		height: 220px;
+		border-radius: 50%;
+		position: relative;
+		overflow: hidden;
+		margin: 0 auto;
+		top: 8%;
+	}
+
+	.name {
+		font-family: "OpenSans Regular";
+		color: #fff;
+		font-size: 21px;
+		text-align: center;
+		font-weight: bold;
+		top: 12%;
+		position: relative;
+	}
+
+	#section7_creators p {
+		font-family: "OpenSans Italic";
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		top: 17%;
+		position: relative;
+		line-height: 23px;
+		opacity: .9;
+	}
+
+	.logo_sec7 {
+		width: 160px;
+		height: 60px;
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		top: 12%;
+	}
+
+
+	.addres_block {
+		background-color: #ffffff;
+		width: 399px;
+		height: 310px;
+		position: relative;
+		margin: auto;
+		top: 24%;
+	}
+
+	.logo_sec8 {
+		width: 92px;
+		height: 89px;
+		position: relative;
+		margin: auto;
+		top: 47px;
+	}
+
+
+	.adress {
+		font-family: "OpenSans Regular";
+		color: #000;
+		font-size: 18px;
+		font-weight: 500;
+		top: 75px;
+		position: relative;
+	}
+
+
+
+	.number_sec8 {
+		font-family: "OpenSans Regular";
+		color: #afcb08;
+		font-size: 42px;
+		font-weight: 400;
+		text-align: center;
+		top: 82px;
+		position: relative;
+	}
+
+
+	#section8_map_contacts {
+		position: relative;
+		border: 4px solid #125344;
+		margin: 0 auto;
+		text-align: center;
+		background: url(../images/map.jpg), url(../images/sec8_bg.jpg);
+		background-repeat: no-repeat, no-repeat;
+		background-size: 101%, 119%;
+		background-position: 2% -68%, 0% 112%;
+	}
+
+	.friends {
+		font-family: "OpenSans Regular";
+		color: #fff;
+		font-size: 17px;
+		font-weight: 500;
+		top: 38%;
+		position: relative;
+	}
+
+	.soc_wrap {
+		width: 230px;
+		height: 53px;
+		position: relative;
+		margin: auto;
+		top: 41%;
+	}	
+
+
+
+}

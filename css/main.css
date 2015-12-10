@@ -1,0 +1,1138 @@
+html,body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;  
+	padding: 0;     
+	border: 0;   
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+html {height: 100%;}
+
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+
+.cleaerfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{ clear: both;}
+
+.left {float: left;}
+.right {float: right;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+
+
+html {height: 100%;
+	overflow-y: scroll;
+	height: 7000px;
+	overflow-x: hidden;
+}
+
+
+body {
+	height: 100%;
+	margin: 0 auto;
+	width: 100%; 
+	max-width: 1900px;
+	overflow-x: hidden;
+}
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+} 
+
+@font-face {
+	font-family: "OpenSans Regular";
+	src: url("../fonts/open-sans_[allfont.ru].ttf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSans Italic";
+	src: url("../fonts/open-sans-italic_[allfont.ru].ttf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: "RistrettoPRO";
+	src: url("../fonts/Ristretto_Pro/RistrettoPro-Regular.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RistrettoPRO Light";
+	src: url("../fonts/Ristretto_Pro/RistrettoPro-Light.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+
+
+
+#main_container {
+	max-width: 1900px;
+	width: 100%;
+	position: relative;
+
+}
+
+
+
+
+
+/*1-ая секция*/
+/*1-ая секция*/
+
+
+
+
+
+#section1_into{
+	
+	width: 100%;
+	max-width: 1940px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	background: url(../images/bg1.jpg);
+	background-size: cover;
+
+	
+
+
+}
+
+
+
+
+#section1_into p {
+	font-family: "OpenSans Regular";
+	color:  #fff;
+	font-size: 11px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	opacity: 1;
+	top: 60px;
+	position: relative;
+
+}
+
+.number {
+	font-family: "OpenSans Regular" ;
+	color:  #afcb08;
+	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center; 
+	top: 55px;
+	position: relative;
+}
+
+
+.logo_block {
+	width: 476px;
+	height: 101px;
+	position: relative;
+	top: 109px;
+	margin: auto;
+	background: url(../images/frame.png);
+}
+
+
+.cap {
+	display: inline-block;
+	width: 40%;
+	font-family: "RistrettoPRO Light";
+	color: #ffffff;
+	font-size: 58.56px;
+	height: 85px;
+	vertical-align: top;
+	margin-top: 15px;
+	text-align: right;
+	line-height: 71px;
+	font-weight: 200px;
+
+}
+.logo_owl {
+	display: inline-block;
+	width: 80px;
+	height: 85px;
+	vertical-align: top;
+	margin-top: 15px;
+}
+.logo_owl img {
+	width: 100%;
+}
+.cake {
+	display: inline-block;
+	width: 40%;
+	font-family: "RistrettoPRO Light";
+	color: #ffffff;
+	font-size: 58.56px;
+	height: 85px;
+	vertical-align: top;
+	margin-top: 15px;
+	text-align: left;
+	line-height: 71px;
+	font-weight: 200px;
+
+}
+
+.cofe_bar {
+
+	width: 131px;
+	height: 28px;
+	position: relative;
+	margin: auto;
+	top: 122px;
+
+}
+
+.cofe_bar img {
+	height: 100%;
+}
+
+
+
+#section1_into h1 {
+	font-family: "RistrettoPRO";
+	color:  #ffffff;
+	font-size: 137px;
+	position: relative;
+	top: 180px;
+	text-align: center;
+}
+
+#section1_into h1 span {
+	color: #89094d;
+}
+
+
+#section1_into h3 {
+	font-family: "RistrettoPRO";
+	color:  #ffffff;
+	font-size: 40px;
+	position: relative;
+	top: 180px;
+	text-align: center;
+
+
+
+
+
+}
+
+/*1-ая секция*/
+/*1-ая секция*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*2-ая секция*/
+/*2-ая секция*/
+
+
+
+#section2_varim_cofe {
+
+
+
+	position: relative;
+	background: url(../images/large_bg2.jpg);
+	
+	background-repeat: no-repeat;
+	border: 4px solid #345e42;
+	background-size: cover;
+	padding-bottom: 12%;
+	
+}
+
+
+#section2_varim_cofe h2 {
+
+	font-family: "RistrettoPRO Light";
+	color: #ffffff;
+	font-size: 62px;
+	margin: auto;
+	position: relative;
+	top: 37.8%;
+	text-align: center;
+
+}
+
+.logo_sec2 {
+
+	width: 61px;
+	height: 57px;
+	display: block;
+	position: relative;
+	top: 35%;
+	margin: auto;
+
+
+}
+
+.logo_sec2 img {
+	height: 100%;
+}
+
+
+#section2_varim_cofe p {
+
+	font-family: "OpenSans Regular";
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	top: 38.8%;
+	position: relative;
+	line-height: 23px;
+	opacity: .9;
+
+
+}
+
+.spoon_block {
+	width: 80px;
+	height: 171px;
+	position: absolute;
+	display: block;
+	margin-left: 96%;
+	margin-top: 11%;
+
+
+}
+
+.spoon_block img {
+	height: 100%;
+}
+
+.cup {
+	width: 215px;
+	height: 286px;
+	position: absolute;
+	display: block;
+	margin-top: 47px;
+
+}
+
+.cup img {
+	height: 100%;
+}
+
+
+.spoon_n_cup {
+	width: 275px;
+	height: 270px;
+	position: absolute;
+	top: 34%;
+	right: 70%;
+}
+
+.cofee_beans1_sec2 {
+	width: 16%;
+	height: 17%;
+	position: relative;
+	display: block;
+	margin: auto;
+	text-align: center;
+	top: 8%;
+	right: 5.9%;
+	margin-left: auto;
+}
+
+
+
+.cofee_beans1_sec2 img {
+	height: 100%;
+
+}
+
+
+.beans_bg_sec2 {
+	width: 131px;
+	height: 52px;
+	position: absolute;
+	display: block;
+	top: 534px;
+	left: 33%;
+}
+
+.beans_bg_sec2 img {
+	height: 100%;
+}
+
+.beans_packet {
+	width: 430px;
+	height: 516px;
+	position: absolute;
+	display: block;
+	top: 21%;
+	left: 57%;
+}
+
+.beans_packet img {
+	height: 100%;
+	width: 100%;
+}
+
+
+.divider_sec2 {
+	position: absolute;
+	margin: auto;
+	display: block;
+	width: 19400px;
+	text-align: center;
+	height: 2px;
+	background: url(../images/green_line.png);
+	bottom: 7.3%;
+}
+
+.divider_sec2 img {
+	width: 100%;
+}
+
+
+.green_trangle {
+	width: 76px;
+	height: 39px;
+	position: absolute;
+	left: 47.5%;
+	right: 45%;
+	top: 92.5%;
+}
+
+.green_trangle img {
+	height: 100%;
+}
+
+/*2-ая секция*/
+/*2-ая секция*/
+
+
+
+
+
+
+
+
+/*3-ая секция*/
+/*3-ая секция*/
+
+
+
+#section3_vkusnyski {
+
+
+	
+	position: relative;
+	border: 4px solid #984534;
+	background: url(../images/sec3_el1.png),url(../images/Eco-Bag.png) , url(../images/banka.png),url(../images/sec3_el2.png), url(../images/large_bg3.jpg) ;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 25% 65%, 94% 26%, -2% 60%, 75% 81%, 47% 5%;
+	background-size: 8%, 35%, 24%, 15%, cover;
+	
+
+}
+
+
+
+
+
+#section3_vkusnyski h2 {
+
+	font-family: "RistrettoPRO Light";
+	color: #ffffff;
+	font-size: 62px;
+	margin: auto;
+	position: relative;
+	top: 37.8%;
+	text-align: center;
+
+}
+
+
+#section3_vkusnyski p {
+	font-family: "OpenSans Regular";
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	top: 39%;
+	position: relative;
+	line-height: 23px;
+	opacity: .9;
+}
+
+#section3_vkusnyski a {
+	color: rgb(175, 203, 8);
+}
+
+
+.logo_sec3 {
+	width: 61px;
+	height: 62px;
+	display: block;
+	position: absolute;
+	top: 25%;
+	left: 47.5%;
+	right: 45%;
+	padding-left: 24px;
+}
+
+
+
+.logo_sec3  img {
+	height: 100%;
+}
+
+.cruissant {
+	width: 23%;
+	height: 27%;
+	position: absolute;
+	top: 16%;
+	right: 90%;
+	left: 17%;
+}
+
+.cruissant img {
+	width: 100%;
+}
+
+
+.divider_sec3 {
+	position: absolute;
+	margin: 0 auto;
+	display: block;
+	width: 1900px;
+	text-align: center;
+	height: 2px;
+	background: url(../images/red_line.png);
+	bottom: 8%;
+}
+
+.red_trangle {
+	width: 76px;
+	height: 39px;
+	position: absolute;
+	left: 47.5%;
+	right: 45%;
+	top: 91.5%;
+}
+
+.red_trangle img {
+	height: 100%;
+}
+/*3-ая секция*/
+/*3-ая секция*/
+
+
+
+
+
+
+
+
+/*4-ая секция*/
+/*4-ая секция*/
+
+
+#section4_scoro {
+	position: relative;
+	border: 4px solid #690534;
+	background: url(../images/corkscrew.png), url(../images/sec4_el1.png), url(../images/sec4_el2.png), url(../images/large_bg4.jpg);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 20% 39%, 39% 72%, 66% 17%, 47% 5%;
+	background-size: 31%, 12%, 8%, cover;
+}
+
+
+#section4_scoro h1 {
+	font-family: "RistrettoPRO";
+	color: #ffffff;
+	font-size: 137px;
+	position: relative;
+	top: 27%;
+	text-align: center;
+}
+
+#section4_scoro p {
+	font-family: "OpenSans Regular";
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	top: 24%;
+	position: relative;
+	line-height: 23px;
+	opacity: .9;
+}
+
+.bottle {
+	width: 26%;
+	height: 108%;
+	position: relative;
+	left: 61%;
+	top: -24%;
+}
+
+.bottle img {
+	height: 100%;
+}
+
+
+
+
+
+
+
+/*4-ая секция*/
+/*4-ая секция*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*5-ая секция*/
+/*5-ая секция*/
+
+
+#section5_cafe_personal {
+
+	
+	position: relative;
+	
+	border: 4px solid #125344;
+	background: url(../images/bg_sec5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+
+
+#section5_cafe_personal h2 {
+
+	font-family: "RistrettoPRO Light";
+	color: #ffffff;
+	font-size: 62px;
+	margin: auto;
+	position: relative;
+	top: 27.8%;
+	text-align: center;
+
+}
+
+
+#section5_cafe_personal p {
+	font-family: "OpenSans Regular";
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	top: 32%;
+	position: relative;
+	line-height: 23px;
+	opacity: .9;
+}
+
+#section5_cafe_personal a {
+	color: rgb(175, 203, 8);
+}
+
+.logo_sec5 {
+	width: 108px;
+	height: 44px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	top: 24%;
+}
+
+
+.logo_sec5  img {
+	height: 100%;
+}
+
+.button1 {
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #ffffff;
+	box-sizing: border-box;
+	background-color:  rgba(155, 57, 108, 0);
+	width: 223px;
+	height: 41px;
+	position: relative;
+	margin: 0 auto;
+	
+	margin-right: 40px;
+	top: 39%;
+	font-family: "OpenSans Regular";
+	color: #fff;
+	font-size: 16px;
+	line-height: 36px;
+	cursor: pointer;
+	transition:all .5s ease;
+}
+
+
+.button2 {
+	display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #ffffff;
+	box-sizing: border-box;
+	background-color:  rgba(155, 57, 108, 0);
+	width: 223px;
+	height: 41px;
+	position: relative;
+	margin: 0 auto;
+	
+	top: 39%;
+
+	font-family: "OpenSans Regular";
+	color: #fff;
+	font-size: 16px;
+	line-height: 36px;
+	cursor: pointer;
+	transition:all .5s ease;
+
+
+
+
+}
+
+
+.button2:hover {
+	background: rgba(255,255,255,.7);
+	color:rgba(137, 9, 77, 1);
+	font-size: 17px;
+	font-weight: bold;
+
+	
+}
+
+.button1:hover {
+	background: rgba(255,255,255,.7);
+	
+	color:rgba(137, 9, 77, 1);
+	font-weight: bold;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+/*5-ая секция*/
+/*5-ая секция*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*6-ая секция*/
+/*6-ая секция*/
+
+
+
+#section6_coffe_owl {
+
+	
+	position: relative;
+	border: 4px solid #125344;
+	margin: 0 auto;
+	text-align: center;
+	
+	background: url(../images/fly_beans.png), url(../images/coffe_owl.jpg);
+	background-color:  #fff;
+	background-repeat: no-repeat, no-repeat;
+	background-size:  90%, 76%;
+	background-position:  5% 5%, 50% -5%;
+
+
+}
+
+
+
+/*6-ая секция*/
+/*6-ая секция*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*7-ая секция*/
+/*7-ая секция*/
+
+#section7_creators {
+
+	position: relative;
+	z-index: 2;
+	border: 4px solid #125344;
+	margin: 0 auto;
+	text-align: center;
+	
+	background: url(../images/bg_sec7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+
+
+#section7_creators h2 {
+
+	font-family: "RistrettoPRO Light";
+	color: #ffffff;
+	font-size: 62px;
+	margin: auto;
+	position: relative;
+	top: 17.8%;
+	text-align: center;
+
+}
+
+
+#section7_creators p {
+
+	font-family: "OpenSans Italic";
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	top: 17%;
+	position: relative;
+	line-height: 21px;
+	opacity: .9;
+	
+
+
+}
+
+
+.logo_sec7 {
+	width: 108px;
+	height: 44px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	top: 15%;
+}
+
+
+
+.logo_sec7  img {
+	height: 100%;
+}
+
+
+
+.creator_block1 {
+	display: inline-block;
+	height: 52%;
+	width: 43%;
+	top: 16%;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	padding-right: 6%;
+
+}
+
+.creator_block2 {
+	display: inline-block;
+	height: 52%;
+	width: 43%;
+	top: 16%;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	padding-left: 6%;
+
+}
+
+
+
+.face {
+	width: 176px;
+	height: 176px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	top: 5%;
+}
+
+.face img {
+	height: 100%;
+}
+
+.name {
+	font-family: "OpenSans Regular";
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	top: 40px;
+	position: relative;
+
+}
+
+
+/*7-ая секция*/
+/*7-ая секция*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*8-ая секция*/
+/*8-ая секция*/
+
+
+#section8_map_contacts {
+
+	
+	position: relative;
+	
+	border: 4px solid #125344;
+	margin: 0 auto;
+	text-align: center;
+	
+	background: url(../images/map.jpg), url(../images/sec8_bg.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-size: 107%, 119%;
+	background-position: 6% -9%, 0% 112%;
+
+}
+
+
+.addres_block {
+	background-color: #ffffff;
+	width: 251px;
+	height: 210px;
+	position: relative;
+	margin: auto;
+	top: 22%;
+}
+
+.logo_sec8 {
+	width: 53px;
+	height: 66px;
+	position: relative;
+	margin: auto;
+	top: 30px;
+}
+
+.logo_sec8 img {
+	height: 100%;
+}
+
+.adress {
+	font-family: "OpenSans Regular";
+	color: #000;
+	font-size: 15px;
+	font-weight: 500;
+	top: 50px;
+	position: relative;
+
+}
+
+.number_sec8 {
+	font-family: "OpenSans Regular";
+	color: #afcb08;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	top: 55px;
+	position: relative;
+}
+
+
+.friends {
+	font-family: "OpenSans Regular";
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	top: 40%;
+	position: relative;
+}
+
+.soc_wrap {
+	width: 230px;
+	height: 53px;
+	position: relative;
+	margin: auto;
+	top: 43%;
+	transition:all .5s ease;
+}
+
+
+.soc1 {
+	display: inline-block;
+	width: 25%;
+	background: url(../images/social.png);
+	height: 100%;
+	background-position: -4% 5%;
+	cursor:pointer;
+	
+
+
+}
+.soc2 {
+	display: inline-block;
+	width: 31%;
+	background: url(../images/social.png);
+	height: 100%;
+	background-position: -120% -3%;
+	cursor:pointer;
+
+
+}
+.soc3 {
+	display: inline-block;
+	width: 25%;
+	background: url(../images/social.png);
+	height: 100%;
+	background-position: -44% 5%;
+	cursor: pointer;
+
+
+}
+
+
+.soc1:hover {
+
+	background-position: -4% 97%;
+
+
+}
+
+
+.soc2:hover {
+
+	background-position: -120% 97%;
+
+
+}
+
+
+.soc3:hover {
+
+	background-position: -44% 97%;
+
+
+}
+
+
+/*8-ая секция*/
+/*8-ая секция*/
