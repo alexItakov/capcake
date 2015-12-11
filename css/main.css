@@ -11,7 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;  
+	margin: 0;   
 	padding: 0;     
 	border: 0;   
 	font-size: 100%;
@@ -297,7 +297,6 @@ ol, ul {list-style: none;}
 	background: url(../images/large_bg2.jpg);
 	
 	background-repeat: no-repeat;
-	border: 4px solid #345e42;
 	background-size: cover;
 	padding-bottom: 12%;
 	
@@ -481,7 +480,7 @@ ol, ul {list-style: none;}
 
 	
 	position: relative;
-	border: 4px solid #984534;
+	
 	background: url(../images/sec3_el1.png),url(../images/Eco-Bag.png) , url(../images/banka.png),url(../images/sec3_el2.png), url(../images/large_bg3.jpg) ;
 	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
 	background-position: 25% 65%, 94% 26%, -2% 60%, 75% 81%, 47% 5%;
@@ -544,7 +543,7 @@ ol, ul {list-style: none;}
 	width: 23%;
 	height: 27%;
 	position: absolute;
-	top: 16%;
+	top: 12%;
 	right: 90%;
 	left: 17%;
 }
@@ -593,7 +592,7 @@ ol, ul {list-style: none;}
 
 #section4_scoro {
 	position: relative;
-	border: 4px solid #690534;
+	
 	background: url(../images/corkscrew.png), url(../images/sec4_el1.png), url(../images/sec4_el2.png), url(../images/large_bg4.jpg);
 	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
 	background-position: 20% 39%, 39% 72%, 66% 17%, 47% 5%;
@@ -671,7 +670,7 @@ ol, ul {list-style: none;}
 	
 	position: relative;
 	
-	border: 4px solid #125344;
+	
 	background: url(../images/bg_sec5.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -823,7 +822,7 @@ ol, ul {list-style: none;}
 
 	
 	position: relative;
-	border: 4px solid #125344;
+	
 	margin: 0 auto;
 	text-align: center;
 	
@@ -866,7 +865,7 @@ ol, ul {list-style: none;}
 
 	position: relative;
 	z-index: 2;
-	border: 4px solid #125344;
+	
 	margin: 0 auto;
 	text-align: center;
 	
@@ -932,7 +931,8 @@ ol, ul {list-style: none;}
 	position: relative;
 	text-align: center;
 	margin: 0 auto;
-	padding-right: 6%;
+	padding-right: 0%;
+	vertical-align: top;
 
 }
 
@@ -944,7 +944,7 @@ ol, ul {list-style: none;}
 	position: relative;
 	text-align: center;
 	margin: 0 auto;
-	padding-left: 6%;
+	padding-left: 0%;
 
 }
 
@@ -1004,14 +1004,14 @@ ol, ul {list-style: none;}
 	
 	position: relative;
 	
-	border: 4px solid #125344;
+	
 	margin: 0 auto;
 	text-align: center;
 	
 	background: url(../images/map.jpg), url(../images/sec8_bg.jpg);
 	background-repeat: no-repeat, no-repeat;
 	background-size: 107%, 119%;
-	background-position: 6% -9%, 0% 112%;
+	background-position: 6% -200%, 0% 112%;
 
 }
 
