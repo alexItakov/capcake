@@ -230,6 +230,24 @@
 		background-position: 10% -41%, 0% 139%;
 	}
 
+	#section1_into h1 {
+		font-family: "RistrettoPRO";
+		color: #ffffff;
+		font-size: 79px;
+		position: relative;
+		top: 180px;
+		text-align: center;
+	}
+
+	#section1_into h3 {
+		font-family: "RistrettoPRO";
+		color: #ffffff;
+		font-size: 32px;
+		position: relative;
+		top: 218px;
+		text-align: center;
+	}
+
 
 
 }
