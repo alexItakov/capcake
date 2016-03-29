@@ -11,7 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;   
+	margin: 0;    
 	padding: 0;     
 	border: 0;   
 	font-size: 100%;
@@ -772,6 +772,14 @@ ol, ul {list-style: none;}
 
 }
 
+#wrap_button {
+
+	position: relative;
+	top: 50%;
+
+
+}
+
 
 .button2:hover {
 	background: rgba(255,255,255,.7);
@@ -923,11 +931,20 @@ ol, ul {list-style: none;}
 
 
 
+#creator_wrap {
+
+	position: relative;
+	top: 25%;
+
+
+}
+
+
 .creator_block1 {
 	display: inline-block;
 	height: 52%;
 	width: 43%;
-	top: 16%;
+	
 	position: relative;
 	text-align: center;
 	margin: 0 auto;
@@ -940,7 +957,7 @@ ol, ul {list-style: none;}
 	display: inline-block;
 	height: 52%;
 	width: 43%;
-	top: 16%;
+
 	position: relative;
 	text-align: center;
 	margin: 0 auto;
@@ -1000,19 +1017,13 @@ ol, ul {list-style: none;}
 
 
 #section8_map_contacts {
-
-	
 	position: relative;
-	
-	
 	margin: 0 auto;
 	text-align: center;
-	
 	background: url(../images/map.jpg), url(../images/sec8_bg.jpg);
 	background-repeat: no-repeat, no-repeat;
 	background-size: 107%, 119%;
-	background-position: 6% -200%, 0% 112%;
-
+	background-position: 10% -115%, 0% 112%;
 }
 
 

@@ -29,6 +29,209 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+	.logo_block {
+		width: 375px;
+		height: 82px;
+		position: relative;
+		top: 109px;
+		margin: auto;
+		background: url(../images/frame.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+
+	.cap {
+		display: inline-block;
+		width: 36%;
+		font-family: "RistrettoPRO Light";
+		color: #ffffff;
+		font-size: 58.56px;
+		height: 85px;
+		vertical-align: top;
+		margin-top: 15px;
+		text-align: right;
+		line-height: 71px;
+		font-weight: 200px;
+	}
+
+	.logo_owl {
+		display: inline-block;
+		width: 80px;
+		height: 85px;
+		vertical-align: top;
+		margin-top: 16px;
+		left: 1%;
+		position: relative;
+	}
+
+	.beans_packet {
+		width: 188px;
+		height: 242px;
+		position: absolute;
+		display: block;
+		top: 65%;
+		left: 57%;
+	}
+
+	.cup {
+		width: 105px;
+		height: 214px;
+		position: absolute;
+		display: block;
+		top: 221px;
+		left: 90px;
+	}
+
+
+	.cofee_beans1_sec2 {
+		width: 10%;
+		height: 12%;
+		position: relative;
+		display: block;
+		margin: auto;
+		text-align: center;
+		top: 1%;
+		right: 5.9%;
+		margin-left: auto;
+	}
+
+
+	.green_trangle {
+
+		display: none;
+	}
+
+	.divider_sec2 {
+		display: none;
+	}
+
+	#section3_vkusnyski p {
+		font-family: "OpenSans Regular";
+		color: #fff;
+		font-size: 18px;
+		text-align: center;
+		top: 39%;
+		position: relative;
+		line-height: 23px;
+		opacity: .9;
+		padding: 53px;
+	}
+
+	.red_trangle {
+		width: 76px;
+		height: 39px;
+		position: absolute;
+		left: 39.5%;
+		right: 45%;
+		top: 91.5%;
+	}
+
+	#section1_into h3 {
+		font-family: "RistrettoPRO";
+		color: #ffffff;
+		font-size: 40px;
+		position: relative;
+		top: 261px;
+		text-align: center;
+	}
+
+	#section4_scoro {
+		position: relative;
+		background: url(../images/corkscrew.png), url(../images/sec4_el1.png), url(../images/sec4_el2.png), url(../images/large_bg4.jpg);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+		background-position: 18% 102%, 39% 72%, 66% 17%, 47% 5%;
+		background-size: 77%, 12%, 8%, cover;
+	}
+
+	#section5_cafe_personal p {
+		font-family: "OpenSans Regular";
+		color: #fff;
+		font-size: 18px;
+		text-align: center;
+		top: 32%;
+		position: relative;
+		line-height: 23px;
+		opacity: .9;
+		padding: 35px;
+	}
+
+	#wrap_button {
+		position: relative;
+		top: 29%;
+	}
+
+	.button1 {
+		display: inline-block;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #ffffff;
+		box-sizing: border-box;
+		background-color: rgba(155, 57, 108, 0);
+		width: 223px;
+		height: 41px;
+		position: relative;
+		margin: 0 auto;
+		/* margin-right: 40px; */
+		top: 39%;
+		font-family: "OpenSans Regular";
+		color: #fff;
+		font-size: 16px;
+		line-height: 36px;
+		cursor: pointer;
+		transition: all .5s ease;
+		margin-bottom: 31px;
+	}
+
+	#section6_coffe_owl {
+		position: relative;
+		margin: 0 auto;
+		text-align: center;
+		background: url(../images/fly_beans.png), url(../images/coffe_owl.jpg);
+		background-color: #fff;
+		background-repeat: no-repeat, no-repeat;
+		background-size: 90%, 76%;
+		background-position: 8% 38%, 50% 48%;
+	}
+
+	.face {
+		width: 100px;
+		height: 102px;
+		border-radius: 50%;
+		position: relative;
+		overflow: hidden;
+		margin: 0 auto;
+		top: 5%;
+	}
+
+	#creator_wrap {
+		position: relative;
+		top: 19%;
+	}
+
+	#section7_creators p {
+		font-family: "OpenSans Italic";
+		color: #fff;
+		font-size: 12px;
+		text-align: center;
+		top: 17%;
+		position: relative;
+		line-height: 22px;
+		opacity: .9;
+	}
+
+	#section8_map_contacts {
+		position: relative;
+		margin: 0 auto;
+		text-align: center;
+		background: url(../images/map.jpg), url(../images/sec8_bg.jpg);
+		background-repeat: no-repeat, no-repeat;
+		background-size: 250%, 365%;
+		background-position: 10% -41%, 0% 139%;
+	}
+
+
+
 }
 
 
@@ -779,7 +982,7 @@
 		display: inline-block;
 		height: 52%;
 		width: 43%;
-		top: 16%;
+		
 		position: relative;
 		text-align: center;
 		margin: 0 auto;
@@ -791,7 +994,7 @@
 		display: inline-block;
 		height: 52%;
 		width: 43%;
-		top: 16%;
+		
 		position: relative;
 		text-align: center;
 		margin: 0 auto;
